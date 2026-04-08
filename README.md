@@ -51,8 +51,6 @@
 * **午後：絶景ドライブ**
     * 下山後、紅葉の名所「西吾妻スカイバレー」を走り裏磐梯へ。
 
-![メルキュール裏磐梯リゾート＆スパ](https://www.accorhotels.com/ja/japan/images/hotels/2023/05/mercure-urabandai-resort-spa_2023_05_01_01.jpg)
-
 > **🏨 宿泊：メルキュール裏磐梯リゾート＆スパ**
 > [公式サイト](https://all.accor.com/hotel/C1P1/index.ja.shtml) / 1泊2食付 約13,000円
 > ※12名分予約済み。登山後の疲れをラグジュアリーな空間で癒やしましょう。
@@ -60,7 +58,6 @@
 ---
 
 ### 【Day 3】 10/12（月・祝）：磐梯山と五色沼散策
-**テーマ：百名山の絶景とエメラルドグリーンの湖沼**
 
 ![磐梯山](https://www.urabandai-inf.com/wp-content/uploads/2021/01/001-6-750x500_c.jpg)
 
