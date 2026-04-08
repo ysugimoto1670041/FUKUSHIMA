@@ -40,9 +40,8 @@
 ---
 
 ### 【Day 2】 10/11（日）：紅葉の西吾妻山とスカイバレー
-**テーマ：選べる登山スタイルと絶景ドライブ**
 
-![西吾妻山](https://static.wixstatic.com/media/52f010_3a605c5dd9084a0f9ef41099b6a6ad65~mv2.jpg/v1/fill/w_1310,h_551,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/tengendaiMAP.jpg)
+![西吾妻山](https://www.yamakei-online.com/new_images/yamanavi/main_photo/219_raw.jpg)
 
 * **午前：西吾妻山登山（往復4〜6時間）**
     * **【楽々組】** ロープウェイ＋リフトを利用して標高を稼ぐコース
@@ -63,7 +62,7 @@
 ### 【Day 3】 10/12（月・祝）：磐梯山と五色沼散策
 **テーマ：百名山の絶景とエメラルドグリーンの湖沼**
 
-![磐梯山](https://upload.wikimedia.org/wikipedia/commons/5/5b/Bandai_Asahi_National_Park_02.jpg)
+![磐梯山](https://www.urabandai-inf.com/wp-content/uploads/2021/01/001-6-750x500_c.jpg)
 
 * **【登山組】 磐梯山アタック**
     * 八方台登山口より登頂（往復約4時間）
