@@ -1,90 +1,3 @@
-<style>
-body {
-  background: linear-gradient(to bottom, #ffecd2, #fcb69f);
-  color: #2d3748;
-  font-family: 'Arial', sans-serif;
-  margin: 0;
-  padding: 20px;
-}
-h1 {
-  color: #d2691e;
-  text-align: center;
-  font-size: 2.5em;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-}
-h2 {
-  color: #ff8c00;
-  border-bottom: 2px solid #d2691e;
-  padding-bottom: 10px;
-}
-h3 {
-  color: #8b4513;
-}
-img {
-  display: block;
-  margin: 20px auto;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  max-width: 100%;
-  height: auto;
-}
-blockquote {
-  background: rgba(255, 255, 255, 0.8);
-  border-left: 5px solid #d2691e;
-  padding: 10px;
-  margin: 20px 0;
-}
-table {
-  background: rgba(255, 255, 255, 0.9);
-  border-collapse: collapse;
-  margin: 20px auto;
-  width: 100%;
-  overflow-x: auto;
-  display: block;
-}
-th, td {
-  border: 1px solid #d2691e;
-  padding: 10px;
-  text-align: left;
-  white-space: nowrap;
-}
-th {
-  background: #ff8c00;
-  color: white;
-}
-ul {
-  background: rgba(255, 255, 255, 0.8);
-  padding: 20px;
-  border-radius: 10px;
-}
-/* レスポンシブデザイン */
-@media (max-width: 768px) {
-  body {
-    padding: 10px;
-  }
-  h1 {
-    font-size: 2em;
-  }
-  h2 {
-    font-size: 1.5em;
-  }
-  h3 {
-    font-size: 1.2em;
-  }
-  img {
-    margin: 10px auto;
-  }
-  table {
-    font-size: 0.9em;
-  }
-  th, td {
-    padding: 5px;
-  }
-  ul {
-    padding: 10px;
-  }
-}
-</style>
 
 # 🍂 西吾妻山・磐梯山（百名山）２座登山ツアーのご案内 🍂
 
@@ -93,14 +6,14 @@ ul {
 ワンゲルメンバーの皆様、お疲れ様です！
 今年の秋は、東北が誇る日本百名山、**「西吾妻山」と「磐梯山」**を贅沢に巡る2泊3日のツアーを企画しました。
 
-燃えるような紅葉、歴史ある名湯、そして裏磐梯の絶景を一緒に楽しみませんか？
+少し早めの紅葉、歴史ある名湯、そして裏磐梯の絶景を一緒に楽しみませんか？
 登山組も観光組も楽しめるフレキシブルな行程です。奮ってご参加ください！
 
 ---
 
 ## 🗓 開催概要
 * **日程:** 2026年10月10日（土）〜10月12日（月・祝）
-* **目的地:** 福島県（米沢・裏磐梯エリア）
+* **目的地:** 山形県・福島県（米沢・裏磐梯エリア）
 * **主な山:** 西吾妻山（2,035m）、磐梯山（1,816m）
 
 ---
