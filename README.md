@@ -1,7 +1,7 @@
 
 # 🍂 西吾妻山・磐梯山（百名山）２座登山ツアーのご案内 🍂
 
-![紅葉の西吾妻山](https://upload.wikimedia.org/wikipedia/commons/0/0a/Nishi-Azuma-yama.jpg)
+![紅葉の西吾妻山](https://static.wixstatic.com/media/52f010_3a605c5dd9084a0f9ef41099b6a6ad65~mv2.jpg/v1/fill/w_1310,h_551,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/tengendaiMAP.jpg)
 
 ワンゲルメンバーの皆様、お疲れ様です！
 今年の秋は、東北が誇る日本百名山、**「西吾妻山」と「磐梯山」**を贅沢に巡る2泊3日のツアーを企画しました。
