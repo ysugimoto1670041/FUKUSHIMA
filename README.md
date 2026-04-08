@@ -44,11 +44,10 @@
 
 ![西吾妻山](https://static.wixstatic.com/media/52f010_3a605c5dd9084a0f9ef41099b6a6ad65~mv2.jpg/v1/fill/w_1310,h_551,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/tengendaiMAP.jpg)
 
-* **午前：西吾妻山登山（往復4〜5時間）**
+* **午前：西吾妻山登山（往復4〜6時間）**
     * **【楽々組】** ロープウェイ＋リフトを利用して標高を稼ぐコース
     * **【健脚組】** 麓から徒歩で登頂を目指すコース
-    * *天元台からのルートマップは以下を参照*
-    * ![西吾妻山ルートマップ](https://example.com/nishi-azuma-map.jpg)
+    * ![西吾妻山ルートマップ](https://static.wixstatic.com/media/52f010_3a605c5dd9084a0f9ef41099b6a6ad65~mv2.jpg/v1/fill/w_1310,h_551,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/tengendaiMAP.jpg)
 
 * **午後：絶景ドライブ**
     * 下山後、紅葉の名所「西吾妻スカイバレー」を走り裏磐梯へ。
