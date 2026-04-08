@@ -31,7 +31,7 @@
 | 14:00 | 上杉家ゆかりの遺跡・米沢城址など見学 |
 | 16:30 | 新高湯温泉「吾妻屋」チェックイン |
 
-![新高湯温泉](https://www.shinkoyu.com/wp-content/uploads/2020/05/shinkoyu-onsen.jpg)
+![米澤城址](https://yamagatakanko.com/lsc/upfile/spot/0000/2314/2314_10_l.jpg))
 
 > **♨️ 宿泊：新高湯温泉 吾妻屋**
 > [公式サイト](https://on1000.jp/) / 1泊2食付 約18,000円
@@ -69,7 +69,7 @@
 * **【登山組】 磐梯山アタック**
     * 八方台登山口より登頂（往復約4時間）
     * 山頂からは猪苗代湖と裏磐梯が一望できます！
-    * ![磐梯山登山マップ](https://example.com/bandai-map.jpg)
+    * ![磐梯山登山マップ](https://www.urabandai-inf.com/wp-content/uploads/file/pamphlet/bandaisan_tozan_map.pdf)
 
 * **【観光組】 裏磐梯散策**
     * 五色沼自然探勝路の散策など、周辺の紅葉をゆっくり楽しみます。
