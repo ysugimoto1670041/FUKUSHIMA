@@ -30,7 +30,7 @@
 | 14:00 | 上杉家ゆかりの遺跡・米沢城址など見学 |
 | 16:30 | 新高湯温泉「吾妻屋」チェックイン |
 
-![米澤城址](https://yamagatakanko.com/lsc/upfile/spot/0000/2314/2314_10_l.jpg))
+![米澤城址](https://yamagatakanko.com/lsc/upfile/spot/0000/2314/2314_10_l.jpg)
 
 > **♨️ 宿泊：新高湯温泉 吾妻屋**
 > [公式サイト](https://on1000.jp/) / 1泊2食付 約18,000円
