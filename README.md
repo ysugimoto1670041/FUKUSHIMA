@@ -1,7 +1,7 @@
 
 # 🍂 西吾妻山・磐梯山（百名山）２座登山ツアーのご案内 🍂
 
-![紅葉の西吾妻山](https://static.wixstatic.com/media/52f010_3a605c5dd9084a0f9ef41099b6a6ad65~mv2.jpg/v1/fill/w_1310,h_551,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/tengendaiMAP.jpg)
+![紅葉の西吾妻山](https://www.google.com/imgres?q=%E8%A5%BF%E5%90%BE%E5%A6%BB%E5%B1%B1%20%E7%99%BB%E5%B1%B1&imgurl=https%3A%2F%2Fwww.yamakei-online.com%2Fnew_images%2Fyamanavi%2Fmain_photo%2F219_raw.jpg&imgrefurl=https%3A%2F%2Fwww.yamakei-online.com%2Fyamanavi%2Fyama.php%3Fyama_id%3D219&docid=Gc4V1iW08cHZbM&tbnid=VGh7wXpFZ1oztM&vet=12ahUKEwiU1fSWzd6TAxVwYfUHHS5XIOgQnPAOegQIMxAB..i&w=640&h=446&hcb=2&ved=2ahUKEwiU1fSWzd6TAxVwYfUHHS5XIOgQnPAOegQIMxAB)
 
 ワンゲルメンバーの皆様、お疲れ様です！
 今年の秋は、東北が誇る日本百名山、**「西吾妻山」と「磐梯山」**を贅沢に巡る2泊3日のツアーを企画しました。
@@ -42,7 +42,7 @@
 ### 【Day 2】 10/11（日）：紅葉の西吾妻山とスカイバレー
 **テーマ：選べる登山スタイルと絶景ドライブ**
 
-![西吾妻山](https://upload.wikimedia.org/wikipedia/commons/0/0a/Nishi-Azuma-yama.jpg)
+![西吾妻山](https://static.wixstatic.com/media/52f010_3a605c5dd9084a0f9ef41099b6a6ad65~mv2.jpg/v1/fill/w_1310,h_551,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/tengendaiMAP.jpg)
 
 * **午前：西吾妻山登山（往復4〜5時間）**
     * **【楽々組】** ロープウェイ＋リフトを利用して標高を稼ぐコース
