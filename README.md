@@ -1,92 +1,296 @@
-<div style="background-image: 
-![磐梯山](https://1drv.ms/i/c/aed9bf084f275143/IQD4Wv7-yhEOQbYFcndjeRDhAaxcGl7MXPWL7sBVAOL_0x0?e=PfeObD);
-  background-size: cover; background-position: center; padding: 60px 20px; text-align: center; border-radius: 10px; margin-bottom: 20px;">
-  <h1 style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.7); margin: 0; font-size: 2em;">🍂 西吾妻山・磐梯山登山ツアーのご案内 🍂</h1>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026秋｜西吾妻山・磐梯山登山ツアー</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <style>
+        :root {
+            --autumn-orange: #e67e22;
+            --autumn-red: #c0392b;
+            --autumn-yellow: #f1c40f;
+            --dark-green: #2d3436;
+            --bg-cream: #fdfaf5;
+        }
 
-ワンゲルメンバーの皆様、お疲れ様です！
-今年の秋は日本百名山、**「西吾妻山」と「磐梯山」**を贅沢に巡る2泊3日のツアーを企画しました
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+            background-color: var(--bg-cream);
+            color: #333;
+            line-height: 1.8;
+        }
 
-少し早めの紅葉、歴史ある名湯、そして裏磐梯の絶景を一緒に楽しみませんか？
-登山組も観光組も楽しめるフレキシブルな行程です。奮ってご参加ください！
+        /* Hero Section */
+        .hero {
+            /* 【修正点】背景画像をGitHubのものに変更 */
+            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+                        url('https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPOSITORY/main/images/Bandai_picture.png') center/cover no-repeat;
+            height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            border-bottom: 10px solid var(--autumn-orange);
+            border-radius: 10px; /* ユーザーの要望に合わせて追加 */
+            margin-bottom: 20px; /* ユーザーの要望に合わせて追加 */
+        }
 
----
+        .hero-content h1 {
+            font-size: 3.5rem;
+            font-weight: 900;
+            text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+            margin-bottom: 1rem;
+        }
 
-## 🗓 開催概要
-* **日程:** 2026年10月10日（土）〜10月12日（月・祝）
-* **目的地:** 山形県・福島県（米沢・裏磐梯エリア）
-* **主な山:** 西吾妻山（2,035m）、磐梯山（1,816m）
+        .hero-badge {
+            background-color: var(--autumn-red);
+            padding: 5px 20px;
+            border-radius: 50px;
+            font-size: 1.2rem;
+            display: inline-block;
+            margin-bottom: 1rem;
+        }
 
----
+        /* Section Styling */
+        section { padding: 80px 0; }
+        .section-title {
+            text-align: center;
+            margin-bottom: 50px;
+            position: relative;
+            font-weight: 700;
+            color: var(--autumn-red);
+        }
+        .section-title::after {
+            content: '🍂';
+            display: block;
+            font-size: 1.5rem;
+        }
 
-## 🧭 スケジュール
+        /* Schedule Timeline */
+        .day-card {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            margin-bottom: 40px;
+            border-left: 8px solid var(--autumn-orange);
+        }
+        .day-header {
+            background: var(--autumn-orange);
+            color: white;
+            padding: 15px 25px;
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+        .schedule-table th { background: #fff3e0; width: 100px; }
 
-### 【Day 1】 10/10（土）：歴史と名湯の米沢
+        /* Accommodation Box */
+        .info-box {
+            background: #fff9f0;
+            border: 2px dashed var(--autumn-orange);
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 15px;
+        }
 
-| 時間 | 内容 |
-| :--- | :--- |
-| 09:00 | 東京駅発 新幹線（関西組の到着に合わせて調整） |
-| 11:30 | 福島駅にて集合・レンタカーで米沢へ移動 |
-| 12:30 | 米沢市内にて昼食（米沢牛など） |
-| 14:00 | 上杉家ゆかりの遺跡・米沢城址など見学 |
-| 16:30 | 新高湯温泉「吾妻屋」チェックイン |
+        .img-fluid-custom {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            transition: transform 0.3s ease;
+        }
+        .img-fluid-custom:hover { transform: scale(1.03); }
 
-![米沢](https://1drv.ms/i/c/aed9bf084f275143/IQCKozHlHPhXQJj3BsscMXCeAY5QA1GhvQL8jE6t1P4fR5Q?e=j3BAkE)
+        /* CTA Area */
+        .cta-section {
+            background: var(--dark-green);
+            color: white;
+            text-align: center;
+            padding: 100px 0;
+        }
+        .btn-join {
+            background-color: var(--autumn-red);
+            color: white;
+            padding: 20px 50px;
+            font-size: 1.5rem;
+            font-weight: 700;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            display: inline-block;
+        }
+        .btn-join:hover {
+            background-color: var(--autumn-yellow);
+            color: var(--dark-green);
+            transform: translateY(-5px);
+        }
 
-> **♨️ 宿泊：新高湯温泉 吾妻屋旅館**
-> [公式サイト](https://on1000.jp/) / 1泊2食付 約18,000円
-> ※5月下旬予約開始予定。標高1,100mの絶景露天風呂が自慢です！
+        /* Footer */
+        footer { background: #222; color: #777; padding: 20px; text-align: center; }
 
----
+        @media (max-width: 768px) {
+            .hero-content h1 { font-size: 2rem; }
+        }
+    </style>
+</head>
+<body>
 
-### 【Day 2】 10/11（日）：紅葉の西吾妻山とスカイバレー
+    <header class="hero">
+        <div class="hero-content animate__animated animate__fadeIn">
+            <span class="hero-badge">2026.10.10(Sat) - 10.12(Mon)</span>
+            <h1>🍂 西吾妻山・磐梯山<br>登山ツアーのご案内</h1>
+            <p class="lead">紅葉、名湯、そして絶景を巡る最高の3日間</p>
+        </div>
+    </header>
 
-![西吾妻山](https://www.yamakei-online.com/new_images/yamanavi/main_photo/219_raw.jpg)
+    <section class="container text-center animate__animated animate__fadeInUp">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <p class="lead text-primary fw-bold">ワンゲルメンバーの皆様、お疲れ様です！</p>
+                <p>今年の秋は日本百名山、<strong>「西吾妻山」と「磐梯山」</strong>を贅沢に巡る2泊3日のツアーを企画しました。<br>
+                少し早めの紅葉、歴史ある名湯、そして裏磐梯の絶景を一緒に楽しみませんか？<br>
+                登山組も観光組も楽しめるフレキシブルな行程です。奮ってご参加ください！</p>
+            </div>
+        </div>
+    </section>
 
-* **午前：西吾妻山登山（往復4〜6時間）**
-    * **【楽々組】** ロープウェイ＋リフトを利用して標高を稼ぐコース
-    * **【健脚組】** 麓から徒歩で登頂を目指すコース
-      
-![西吾妻山ルートマップ](https://static.wixstatic.com/media/52f010_3a605c5dd9084a0f9ef41099b6a6ad65~mv2.jpg/v1/fill/w_1310,h_551,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/tengendaiMAP.jpg)
+    <hr>
 
-* **午後：絶景ドライブ**
-    * 下山後、紅葉の名所「西吾妻スカイバレー」を走り裏磐梯へ
-> **🏨 宿泊：メルキュール裏磐梯リゾート＆スパ**
-> [公式サイト](https://all.accor.com/hotel/C1P1/index.ja.shtml) / 1泊2食付 約13,000円
-> ※12名分予約済み。登山後の疲れを温泉で癒やしましょう
+    <section class="container">
+        <h2 class="section-title">開催概要</h2>
+        <div class="row g-4 justify-content-center">
+            <div class="col-md-4">
+                <div class="card h-100 text-center p-4">
+                    <h3>🗓 日程</h3>
+                    <p>2026年10月10日（土）〜<br>10月12日（月・祝）</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 text-center p-4">
+                    <h3>📍 目的地</h3>
+                    <p>山形県・福島県<br>（米沢・裏磐梯エリア）</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 text-center p-4">
+                    <h3>🏔 主な山</h3>
+                    <p>西吾妻山（2,035m）<br>磐梯山（1,816m）</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
----
+    <section class="container">
+        <h2 class="section-title">スケジュール</h2>
 
-### 【Day 3】 10/12（月・祝）：磐梯山と五色沼散策
+        <div class="day-card">
+            <div class="day-header">【Day 1】 10/10（土）：歴史と名湯の米沢</div>
+            <div class="p-4">
+                <div class="row">
+                    <div class="col-md-6">
+                        <table class="table schedule-table">
+                            <tr><th>09:00</th><td>東京駅発 新幹線</td></tr>
+                            <tr><th>11:30</th><td>福島駅集合・レンタカー移動</td></tr>
+                            <tr><th>12:30</th><td>米沢にて昼食（米沢牛！）</td></tr>
+                            <tr><th>14:00</th><td>米沢城址など見学</td></tr>
+                            <tr><th>16:30</th><td>新高湯温泉 チェックイン</td></tr>
+                        </table>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <img src="https://yamagatakanko.com/lsc/upfile/spot/0000/2314/2314_10_l.jpg" class="img-fluid-custom" alt="米澤城址">
+                    </div>
+                </div>
+                <div class="info-box">
+                    <strong>♨️ 宿泊：新高湯温泉 吾妻屋旅館</strong><br>
+                    標高1,100mの絶景露天風呂が自慢！1泊2食付 約18,000円
+                </div>
+            </div>
+        </div>
 
-![磐梯山](https://www.urabandai-inf.com/wp-content/uploads/2021/01/001-6-750x500_c.jpg)
+        <div class="day-card">
+            <div class="day-header">【Day 2】 10/11（日）：紅葉の西吾妻山</div>
+            <div class="p-4">
+                <div class="row mb-4">
+                    <div class="col-md-7">
+                        <h4>⛰ 午前：西吾妻山登山（往復4〜6時間）</h4>
+                        <ul>
+                            <li><strong>【楽々組】</strong> ロープウェイ＋リフト利用</li>
+                            <li><strong>【健脚組】</strong> 麓から徒歩で登頂を目指す</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="https://www.yamakei-online.com/new_images/yamanavi/main_photo/219_raw.jpg" class="img-fluid-custom" alt="西吾妻山">
+                    </div>
+                </div>
+                <img src="https://static.wixstatic.com/media/52f010_3a605c5dd9084a0f9ef41099b6a6ad65~mv2.jpg/v1/fill/w_1310,h_551,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/tengendaiMAP.jpg" class="img-fluid rounded mb-3" alt="マップ">
+                <p><strong>🚙 午後：絶景ドライブ</strong><br>紅葉の名所「西吾妻スカイバレー」を走り裏磐梯へ</p>
+                <div class="info-box" style="border-color: #3498db; background-color: #f0f8ff;">
+                    <strong>🏨 宿泊：メルキュール裏磐梯リゾート＆スパ</strong><br>
+                    1泊2食付 約13,000円。登山後の疲れを温泉で癒やしましょう。
+                </div>
+            </div>
+        </div>
 
-* **【登山組】 磐梯山アタック**
-    * 八方台登山口より登頂（往復約4-5時間）
-    * 山頂からは猪苗代湖と裏磐梯が一望できます！
-      
-![磐梯山登山マップ](https://github.com/ysugimoto1670041/FUKUSHIMA/blob/main/images/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%200008-04-09%201.13.10.png?raw=true)
+        <div class="day-card">
+            <div class="day-header">【Day 3】 10/12（月・祝）：磐梯山と五色沼</div>
+            <div class="p-4">
+                <div class="row">
+                    <div class="col-md-6 text-center">
+                        <img src="https://www.urabandai-inf.com/wp-content/uploads/2021/01/001-6-750x500_c.jpg" class="img-fluid-custom" alt="磐梯山">
+                    </div>
+                    <div class="col-md-6">
+                        <h4>🧗 登山組：磐梯山アタック</h4>
+                        <p>八方台登山口より登頂。山頂からは猪苗代湖が一望できます！</p>
+                        <h4>🎨 観光組：裏磐梯散策</h4>
+                        <p>五色沼自然探勝路など、紅葉をゆっくり楽しみます。</p>
+                    </div>
+                </div>
+                <div class="text-center mt-3">
+                    <img src="https://github.com/ysugimoto1670041/FUKUSHIMA/blob/main/images/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%200008-04-09%201.13.10.png?raw=true" class="img-fluid rounded" alt="磐梯山マップ" style="max-height: 400px;">
+                </div>
+            </div>
+        </div>
+    </section>
 
-* **【観光組】 裏磐梯散策**
-    * 五色沼自然探勝路の散策など、周辺の紅葉をゆっくり楽しみます!
+    <section class="container bg-white rounded p-5 shadow-sm">
+        <div class="row">
+            <div class="col-md-6">
+                <h3 class="fw-bold mb-4">💰 概算費用</h3>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">宿泊代：計 約31,000円</li>
+                    <li class="list-group-item">交通費：新幹線 ＋ レンタカー代（人数割り）</li>
+                    <li class="list-group-item">その他：昼食代、ロープウェイ代など</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h3 class="fw-bold mb-4">🎒 持ち物・準備</h3>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">登山装備（防寒着・雨具必須）</li>
+                    <li class="list-group-item">登山靴、ザック</li>
+                    <li class="list-group-item">行動食、着替え</li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
-* **夕方：** 郡山駅へ移動。レンタカー返却後、新幹線にて帰京・帰阪
+    <section class="cta-section">
+        <div class="container animate__animated animate__pulse animate__infinite">
+            <h2 class="mb-4">東北の秋、最高の景色を<br>一緒に見に行きましょう！</h2>
+            <p class="mb-5">参加希望の方はLINEグループにて返信をお願いします</p>
+            <a href="#" class="btn-join">LINEで参加表明する</a>
+        </div>
+    </section>
 
----
+    <footer>
+        &copy; 2026 登山同好会 ワンゲル幹事
+    </footer>
 
-## 💰 概算費用（予定）
-* 宿泊代：計 約31,000円
-* 交通費：新幹線代 ＋ レンタカー・ガソリン代（人数割り）
-* その他：昼食代、ロープウェイ代など
-
----
-
-## 🎒 持ち物・準備
-* 登山装備（防寒着、雨具）
-* 登山靴、ザック
-* 行動食、着替え
-
----
-
-## 📝 お申し込み・お問い合わせ
-参加希望の方は本グループLINEにご返信ください！
-**「東北の秋、最高の景色を一緒に見に行きましょう！」**
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
