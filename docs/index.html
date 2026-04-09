@@ -3,216 +3,294 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>西吾妻山・磐梯山登山ツアー</title>
+    <title>2026秋｜西吾妻山・磐梯山登山ツアー</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <style>
-body {
-  background: linear-gradient(to bottom, #ffecd2, #fcb69f);
-  color: #2d3748;
-  font-family: 'Arial', sans-serif;
-  margin: 0;
-  padding: 20px;
-}
-h1 {
-  color: #d2691e;
-  text-align: center;
-  font-size: 2.5em;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-}
-h2 {
-  color: #ff8c00;
-  border-bottom: 2px solid #d2691e;
-  padding-bottom: 10px;
-}
-h3 {
-  color: #8b4513;
-}
-img {
-  display: block;
-  margin: 20px auto;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  max-width: 100%;
-  height: auto;
-}
-blockquote {
-  background: rgba(255, 255, 255, 0.8);
-  border-left: 5px solid #d2691e;
-  padding: 10px;
-  margin: 20px 0;
-}
-table {
-  background: rgba(255, 255, 255, 0.9);
-  border-collapse: collapse;
-  margin: 20px auto;
-  width: 100%;
-  overflow-x: auto;
-  display: block;
-}
-th, td {
-  border: 1px solid #d2691e;
-  padding: 10px;
-  text-align: left;
-  white-space: nowrap;
-}
-th {
-  background: #ff8c00;
-  color: white;
-}
-ul {
-  background: rgba(255, 255, 255, 0.8);
-  padding: 20px;
-  border-radius: 10px;
-}
-/* レスポンシブデザイン */
-@media (max-width: 768px) {
-  body {
-    padding: 10px;
-  }
-  h1 {
-    font-size: 2em;
-  }
-  h2 {
-    font-size: 1.5em;
-  }
-  h3 {
-    font-size: 1.2em;
-  }
-  img {
-    margin: 10px auto;
-  }
-  table {
-    font-size: 0.9em;
-  }
-  th, td {
-    padding: 5px;
-  }
-  ul {
-    padding: 10px;
-  }
-}
-</style>
+        :root {
+            --autumn-orange: #e67e22;
+            --autumn-red: #c0392b;
+            --autumn-yellow: #f1c40f;
+            --dark-green: #2d3436;
+            --bg-cream: #fdfaf5;
+        }
+
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+            background-color: var(--bg-cream);
+            color: #333;
+            line-height: 1.8;
+        }
+
+        /* Hero Section */
+        .hero {
+            /* 【修正点】背景画像をGitHubのものに変更 */
+            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+                        url('https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPOSITORY/main/images/bandai_picture.png') center/cover no-repeat;
+            height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            border-bottom: 10px solid var(--autumn-orange);
+            border-radius: 10px; /* ユーザーの要望に合わせて追加 */
+            margin-bottom: 20px; /* ユーザーの要望に合わせて追加 */
+        }
+
+        .hero-content h1 {
+            font-size: 3.5rem;
+            font-weight: 900;
+            text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+            margin-bottom: 1rem;
+        }
+
+        .hero-badge {
+            background-color: var(--autumn-red);
+            padding: 5px 20px;
+            border-radius: 50px;
+            font-size: 1.2rem;
+            display: inline-block;
+            margin-bottom: 1rem;
+        }
+
+        /* Section Styling */
+        section { padding: 80px 0; }
+        .section-title {
+            text-align: center;
+            margin-bottom: 50px;
+            position: relative;
+            font-weight: 700;
+            color: var(--autumn-red);
+        }
+        .section-title::after {
+            content: '🍂';
+            display: block;
+            font-size: 1.5rem;
+        }
+
+        /* Schedule Timeline */
+        .day-card {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            margin-bottom: 40px;
+            border-left: 8px solid var(--autumn-orange);
+        }
+        .day-header {
+            background: var(--autumn-orange);
+            color: white;
+            padding: 15px 25px;
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+        .schedule-table th { background: #fff3e0; width: 100px; }
+
+        /* Accommodation Box */
+        .info-box {
+            background: #fff9f0;
+            border: 2px dashed var(--autumn-orange);
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 15px;
+        }
+
+        .img-fluid-custom {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            transition: transform 0.3s ease;
+        }
+        .img-fluid-custom:hover { transform: scale(1.03); }
+
+        /* CTA Area */
+        .cta-section {
+            background: var(--dark-green);
+            color: white;
+            text-align: center;
+            padding: 100px 0;
+        }
+        .btn-join {
+            background-color: var(--autumn-red);
+            color: white;
+            padding: 20px 50px;
+            font-size: 1.5rem;
+            font-weight: 700;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            display: inline-block;
+        }
+        .btn-join:hover {
+            background-color: var(--autumn-yellow);
+            color: var(--dark-green);
+            transform: translateY(-5px);
+        }
+
+        /* Footer */
+        footer { background: #222; color: #777; padding: 20px; text-align: center; }
+
+        @media (max-width: 768px) {
+            .hero-content h1 { font-size: 2rem; }
+        }
+    </style>
 </head>
 <body>
-    <h1>🍂 西吾妻山・磐梯山（百名山）登山ツアーのご案内 🍂</h1>
 
-    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Nishi-Azuma-yama.jpg" alt="紅葉の西吾妻山">
+    <header class="hero">
+        <div class="hero-content animate__animated animate__fadeIn">
+            <span class="hero-badge">2026.10.10(Sat) - 10.12(Mon)</span>
+            <h1>🍂 西吾妻山・磐梯山<br>登山ツアーのご案内</h1>
+            <p class="lead">紅葉、名湯、そして絶景を巡る最高の3日間</p>
+        </div>
+    </header>
 
-    <p>ワンゲルメンバーの皆様、お疲れ様です！<br>
-    今年の秋は、東北が誇る日本百名山、<strong>「西吾妻山」と「磐梯山」</strong>を贅沢に巡る2泊3日のツアーを企画しました。</p>
-
-    <p>少し早めの紅葉、歴史ある名湯、そして裏磐梯の絶景を一緒に楽しみませんか？<br>
-    登山組も観光組も楽しめるフレキシブルな行程です。奮ってご参加ください！</p>
-
-    <hr>
-
-    <h2>🗓 開催概要</h2>
-    <ul>
-        <li><strong>日程:</strong> 2026年10月10日（土）〜10月12日（月・祝）</li>
-        <li><strong>目的地:</strong> 福島県（米沢・裏磐梯エリア）</li>
-        <li><strong>主な山:</strong> 西吾妻山（2,035m）、磐梯山（1,816m）</li>
-    </ul>
-
-    <hr>
-
-    <h2>🧭 スケジュール</h2>
-
-    <h3>【Day 1】 10/10（土）：歴史と名湯の米沢</h3>
-    <p><strong>テーマ：合流と温泉、上杉の歴史に触れる</strong></p>
-
-    <table>
-        <tr><th>時間</th><th>内容</th></tr>
-        <tr><td>09:00</td><td>東京駅発 新幹線（関西組の到着に合わせて調整）</td></tr>
-        <tr><td>11:30</td><td>福島駅にて集合・レンタカーで米沢へ移動</td></tr>
-        <tr><td>12:30</td><td>米沢市内にて昼食（米沢牛など）</td></tr>
-        <tr><td>14:00</td><td>上杉家ゆかりの遺跡・米沢城址など見学</td></tr>
-        <tr><td>16:30</td><td>新高湯温泉「吾妻屋」チェックイン</td></tr>
-    </table>
-
-    <img src="https://www.shinkoyu.com/wp-content/uploads/2020/05/shinkoyu-onsen.jpg" alt="新高湯温泉">
-
-    <blockquote>
-        <p><strong>♨️ 宿泊：新高湯温泉 吾妻屋</strong><br>
-        <a href="https://on1000.jp/">公式サイト</a> / 1泊2食付 約18,000円<br>
-        ※5月下旬予約開始予定。標高1,100mの絶景露天風呂が自慢です！</p>
-    </blockquote>
+    <section class="container text-center animate__animated animate__fadeInUp">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <p class="lead text-primary fw-bold">ワンゲルメンバーの皆様、お疲れ様です！</p>
+                <p>今年の秋は日本百名山、<strong>「西吾妻山」と「磐梯山」</strong>を贅沢に巡る2泊3日のツアーを企画しました。<br>
+                少し早めの紅葉、歴史ある名湯、そして裏磐梯の絶景を一緒に楽しみませんか？<br>
+                登山組も観光組も楽しめるフレキシブルな行程です。奮ってご参加ください！</p>
+            </div>
+        </div>
+    </section>
 
     <hr>
 
-    <h3>【Day 2】 10/11（日）：紅葉の西吾妻山とスカイバレー</h3>
-    <p><strong>テーマ：選べる登山スタイルと絶景ドライブ</strong></p>
+    <section class="container">
+        <h2 class="section-title">開催概要</h2>
+        <div class="row g-4 justify-content-center">
+            <div class="col-md-4">
+                <div class="card h-100 text-center p-4">
+                    <h3>🗓 日程</h3>
+                    <p>2026年10月10日（土）〜<br>10月12日（月・祝）</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 text-center p-4">
+                    <h3>📍 目的地</h3>
+                    <p>山形県・福島県<br>（米沢・裏磐梯エリア）</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 text-center p-4">
+                    <h3>🏔 主な山</h3>
+                    <p>西吾妻山（2,035m）<br>磐梯山（1,816m）</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Nishi-Azuma-yama.jpg" alt="西吾妻山">
+    <section class="container">
+        <h2 class="section-title">スケジュール</h2>
 
-    <ul>
-        <li><strong>午前：西吾妻山登山（往復4〜5時間）</strong>
-            <ul>
-                <li><strong>【楽々組】</strong> ロープウェイ＋リフトを利用して標高を稼ぐコース</li>
-                <li><strong>【健脚組】</strong> 麓から徒歩で登頂を目指すコース</li>
-                <li><em>天元台からのルートマップは以下を参照</em></li>
-                <li><img src="https://example.com/nishi-azuma-map.jpg" alt="西吾妻山ルートマップ"></li>
-            </ul>
-        </li>
-        <li><strong>午後：絶景ドライブ</strong>
-            <ul>
-                <li>下山後、紅葉の名所「西吾妻スカイバレー」を走り裏磐梯へ。</li>
-            </ul>
-        </li>
-    </ul>
+        <div class="day-card">
+            <div class="day-header">【Day 1】 10/10（土）：歴史と名湯の米沢</div>
+            <div class="p-4">
+                <div class="row">
+                    <div class="col-md-6">
+                        <table class="table schedule-table">
+                            <tr><th>09:00</th><td>東京駅発 新幹線</td></tr>
+                            <tr><th>11:30</th><td>福島駅集合・レンタカー移動</td></tr>
+                            <tr><th>12:30</th><td>米沢にて昼食（米沢牛！）</td></tr>
+                            <tr><th>14:00</th><td>米沢城址など見学</td></tr>
+                            <tr><th>16:30</th><td>新高湯温泉 チェックイン</td></tr>
+                        </table>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <img src="https://yamagatakanko.com/lsc/upfile/spot/0000/2314/2314_10_l.jpg" class="img-fluid-custom" alt="米澤城址">
+                    </div>
+                </div>
+                <div class="info-box">
+                    <strong>♨️ 宿泊：新高湯温泉 吾妻屋旅館</strong><br>
+                    標高1,100mの絶景露天風呂が自慢！1泊2食付 約18,000円
+                </div>
+            </div>
+        </div>
 
-    <img src="https://www.accorhotels.com/ja/japan/images/hotels/2023/05/mercure-urabandai-resort-spa_2023_05_01_01.jpg" alt="メルキュール裏磐梯リゾート＆スパ">
+        <div class="day-card">
+            <div class="day-header">【Day 2】 10/11（日）：紅葉の西吾妻山</div>
+            <div class="p-4">
+                <div class="row mb-4">
+                    <div class="col-md-7">
+                        <h4>⛰ 午前：西吾妻山登山（往復4〜6時間）</h4>
+                        <ul>
+                            <li><strong>【楽々組】</strong> ロープウェイ＋リフト利用</li>
+                            <li><strong>【健脚組】</strong> 麓から徒歩で登頂を目指す</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="https://www.yamakei-online.com/new_images/yamanavi/main_photo/219_raw.jpg" class="img-fluid-custom" alt="西吾妻山">
+                    </div>
+                </div>
+                <img src="https://static.wixstatic.com/media/52f010_3a605c5dd9084a0f9ef41099b6a6ad65~mv2.jpg/v1/fill/w_1310,h_551,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/tengendaiMAP.jpg" class="img-fluid rounded mb-3" alt="マップ">
+                <p><strong>🚙 午後：絶景ドライブ</strong><br>紅葉の名所「西吾妻スカイバレー」を走り裏磐梯へ</p>
+                <div class="info-box" style="border-color: #3498db; background-color: #f0f8ff;">
+                    <strong>🏨 宿泊：メルキュール裏磐梯リゾート＆スパ</strong><br>
+                    1泊2食付 約13,000円。登山後の疲れを温泉で癒やしましょう。
+                </div>
+            </div>
+        </div>
 
-    <blockquote>
-        <p><strong>🏨 宿泊：メルキュール裏磐梯リゾート＆スパ</strong><br>
-        <a href="https://all.accor.com/hotel/C1P1/index.ja.shtml">公式サイト</a> / 1泊2食付 約13,000円<br>
-        ※12名分予約済み。登山後の疲れをラグジュアリーな空間で癒やしましょう。</p>
-    </blockquote>
+        <div class="day-card">
+            <div class="day-header">【Day 3】 10/12（月・祝）：磐梯山と五色沼</div>
+            <div class="p-4">
+                <div class="row">
+                    <div class="col-md-6 text-center">
+                        <img src="https://www.urabandai-inf.com/wp-content/uploads/2021/01/001-6-750x500_c.jpg" class="img-fluid-custom" alt="磐梯山">
+                    </div>
+                    <div class="col-md-6">
+                        <h4>🧗 登山組：磐梯山アタック</h4>
+                        <p>八方台登山口より登頂。山頂からは猪苗代湖が一望できます！</p>
+                        <h4>🎨 観光組：裏磐梯散策</h4>
+                        <p>五色沼自然探勝路など、紅葉をゆっくり楽しみます。</p>
+                    </div>
+                </div>
+                <div class="text-center mt-3">
+                    <img src="https://github.com/ysugimoto1670041/FUKUSHIMA/blob/main/images/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%200008-04-09%201.13.10.png?raw=true" class="img-fluid rounded" alt="磐梯山マップ" style="max-height: 400px;">
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <hr>
+    <section class="container bg-white rounded p-5 shadow-sm">
+        <div class="row">
+            <div class="col-md-6">
+                <h3 class="fw-bold mb-4">💰 概算費用</h3>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">宿泊代：計 約31,000円</li>
+                    <li class="list-group-item">交通費：新幹線 ＋ レンタカー代（人数割り）</li>
+                    <li class="list-group-item">その他：昼食代、ロープウェイ代など</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h3 class="fw-bold mb-4">🎒 持ち物・準備</h3>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">登山装備（防寒着・雨具必須）</li>
+                    <li class="list-group-item">登山靴、ザック</li>
+                    <li class="list-group-item">行動食、着替え</li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
-    <h3>【Day 3】 10/12（月・祝）：磐梯山と五色沼散策</h3>
-    <p><strong>テーマ：百名山の絶景とエメラルドグリーンの湖沼</strong></p>
+    <section class="cta-section">
+        <div class="container animate__animated animate__pulse animate__infinite">
+            <h2 class="mb-4">東北の秋、最高の景色を<br>一緒に見に行きましょう！</h2>
+            <p class="mb-5">参加希望の方はLINEグループにて返信をお願いします</p>
+            <a href="#" class="btn-join">LINEで参加表明する</a>
+        </div>
+    </section>
 
-    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5b/Bandai_Asahi_National_Park_02.jpg" alt="磐梯山">
+    <footer>
+        &copy; 2026 登山同好会 ワンゲル幹事
+    </footer>
 
-    <ul>
-        <li><strong>【登山組】 磐梯山アタック</strong>
-            <ul>
-                <li>八方台登山口より登頂（往復約4時間）</li>
-                <li>山頂からは猪苗代湖と裏磐梯が一望できます！</li>
-                <li><img src="https://example.com/bandai-map.jpg" alt="磐梯山登山マップ"></li>
-            </ul>
-        </li>
-        <li><strong>【観光組】 裏磐梯散策</strong>
-            <ul>
-                <li>五色沼自然探勝路の散策など、周辺の紅葉をゆっくり楽しみます。</li>
-            </ul>
-        </li>
-        <li><strong>夕方：</strong> 郡山駅へ移動。レンタカー返却後、新幹線にて帰京・帰阪。</li>
-    </ul>
-
-    <hr>
-
-    <h2>💰 概算費用（予定）</h2>
-    <ul>
-        <li>宿泊代：計 約31,000円</li>
-        <li>交通費：新幹線代 ＋ レンタカー・ガソリン代（人数割り）</li>
-        <li>その他：昼食代、ロープウェイ代など</li>
-    </ul>
-
-    <hr>
-
-    <h2>🎒 持ち物・準備</h2>
-    <ul>
-        <li>登山装備（防寒着必須、雨具）</li>
-        <li>登山靴、ザック</li>
-        <li>行動食、着替え</li>
-    </ul>
-
-    <hr>
-
-    <h2>📝 お申し込み・お問い合わせ</h2>
-    <p>参加希望の方は、[日付] までに [連絡先/フォームのリンク] より回答をお願いします！</p>
-
-    <p><strong>「山形・福島の秋、最高の景色を一緒に見に行きましょう！」</strong></p>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
