@@ -1,6 +1,5 @@
-<div style="background-image: url(https://raw.githubusercontent.com/ysugimoto1670041/FUKUSHIMA/main/images/Bandai_piture.png); background-size: cover; background-position: center; padding: 60px 20px; text-align: center; border-radius: 10px; margin-bottom: 20px;">
+<div style="background-image: url('https://raw.githubusercontent.com/ysugimoto1670041/FUKUSHIMA/main/images/Bandai piture.png'); background-size: cover; background-position: center; padding: 60px 20px; text-align: center; border-radius: 10px; margin-bottom: 20px;">
   <h1 style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.7); margin: 0; font-size: 2em;">🍂 西吾妻山・磐梯山登山ツアーのご案内 🍂</h1>
-</div>
 
 ワンゲルメンバーの皆様、お疲れ様です！
 今年の秋は日本百名山、**「西吾妻山」と「磐梯山」**を贅沢に巡る2泊3日のツアーを企画しました
