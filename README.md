@@ -1,4 +1,6 @@
-<div style="background-image: url('https://raw.githubusercontent.com/ysugimoto1670041/FUKUSHIMA/main/images/Bandai piture.png'); background-size: cover; background-position: center; padding: 60px 20px; text-align: center; border-radius: 10px; margin-bottom: 20px;">
+<div style="background-image: 
+![磐梯山](https://1drv.ms/i/c/aed9bf084f275143/IQD4Wv7-yhEOQbYFcndjeRDhAaxcGl7MXPWL7sBVAOL_0x0?e=PfeObD);
+  background-size: cover; background-position: center; padding: 60px 20px; text-align: center; border-radius: 10px; margin-bottom: 20px;">
   <h1 style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.7); margin: 0; font-size: 2em;">🍂 西吾妻山・磐梯山登山ツアーのご案内 🍂</h1>
 
 ワンゲルメンバーの皆様、お疲れ様です！
@@ -28,7 +30,7 @@
 | 14:00 | 上杉家ゆかりの遺跡・米沢城址など見学 |
 | 16:30 | 新高湯温泉「吾妻屋」チェックイン |
 
-![米沢](https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800")
+![米沢](https://1drv.ms/i/c/aed9bf084f275143/IQCKozHlHPhXQJj3BsscMXCeAY5QA1GhvQL8jE6t1P4fR5Q?e=j3BAkE)
 
 > **♨️ 宿泊：新高湯温泉 吾妻屋旅館**
 > [公式サイト](https://on1000.jp/) / 1泊2食付 約18,000円
