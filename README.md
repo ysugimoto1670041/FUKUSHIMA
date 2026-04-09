@@ -1,7 +1,7 @@
 
 # 🍂 西吾妻山・磐梯山登山ツアーのご案内 🍂
 
-!img src="https://static.tenki.jp/images/inapp/mountain-app/photo/photo_120_01.jpg"
+<img src="https://static.tenki.jp/images/inapp/mountain-app/photo/photo_120_01.jpg">
 
 ワンゲルメンバーの皆様、お疲れ様です！
 今年の秋は日本百名山、**「西吾妻山」と「磐梯山」**を贅沢に巡る2泊3日のツアーを企画しました
