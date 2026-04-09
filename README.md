@@ -2,6 +2,7 @@
 # 🍂 西吾妻山・磐梯山登山ツアーのご案内 🍂
 
 ![西吾妻山](https://www.yamakei-online.com/new_images/yamanavi/main_photo/219_raw.jpg)
+
 ワンゲルメンバーの皆様、お疲れ様です！
 今年の秋は日本百名山、**「西吾妻山」と「磐梯山」**を贅沢に巡る2泊3日のツアーを企画しました
 
@@ -29,7 +30,7 @@
 | 14:00 | 上杉家ゆかりの遺跡・米沢城址など見学 |
 | 16:30 | 新高湯温泉「吾妻屋」チェックイン |
 
-[<SRC="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800">]
+![米沢](https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800")
 
 > **♨️ 宿泊：新高湯温泉 吾妻屋旅館**
 > [公式サイト](https://on1000.jp/) / 1泊2食付 約18,000円
