@@ -23,7 +23,6 @@
             line-height: 1.8;
         }
 
-        /* ヒーローセクション（指定の背景画像） */
         .hero {
             background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), 
                         url('https://www.urabandai-inf.com/wp-content/uploads/2024/06/2023.5.12DSC_1082-2-1024x683.jpg') center/cover no-repeat;
@@ -56,34 +55,30 @@
             box-shadow: 0 4px 15px rgba(0,0,0,0.2);
         }
 
-        /* セクション共通 */
-        section { padding: 80px 0; }
+        section { padding: 60px 0; }
         .section-title {
             text-align: center;
-            margin-bottom: 50px;
+            margin-bottom: 40px;
             font-weight: 700;
             color: var(--autumn-red);
         }
         .section-title::after { content: '🍂'; display: block; font-size: 1.5rem; margin-top: 10px; }
 
-        /* カードとテーブル */
         .day-card {
             background: white;
             border-radius: 15px;
             overflow: hidden;
             box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-            margin-bottom: 50px;
+            margin-bottom: 40px;
             border-left: 8px solid var(--autumn-orange);
         }
         .day-header { background: var(--autumn-orange); color: white; padding: 20px 25px; font-size: 1.5rem; font-weight: 700; }
-        .schedule-table th { background: #fff3e0; width: 100px; text-align: center; vertical-align: middle; }
+        .schedule-table th { background: #fff3e0; width: 110px; text-align: center; vertical-align: middle; }
 
-        /* 写真の調整 */
-        .img-fluid-custom { width: 100%; height: 300px; object-fit: cover; border-radius: 12px; margin-bottom: 15px; }
+        .img-fluid-custom { width: 100%; height: 280px; object-fit: cover; border-radius: 12px; margin-bottom: 15px; }
         .map-img { width: 100%; border-radius: 10px; border: 1px solid #ddd; margin: 15px 0; }
 
-        /* 宿泊先ボックス */
-        .info-box { background: #fff9f0; border: 2px dashed var(--autumn-orange); border-radius: 10px; padding: 25px; margin-top: 20px; }
+        .info-box { background: #fff9f0; border: 2px dashed var(--autumn-orange); border-radius: 10px; padding: 20px; margin-top: 20px; }
         .hotel-link {
             display: inline-block;
             margin-top: 10px;
@@ -91,20 +86,29 @@
             font-weight: bold;
             text-decoration: none;
             border: 2px solid var(--autumn-red);
-            padding: 8px 20px;
+            padding: 6px 18px;
             border-radius: 5px;
             transition: 0.3s;
             background: white;
         }
         .hotel-link:hover { background: var(--autumn-red); color: white; }
 
-        /* CTA */
-        .cta-section { background: var(--dark-green); color: white; text-align: center; padding: 100px 0; }
+        .member-badge {
+            background: #e17055;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 15px;
+            display: inline-block;
+            margin: 4px;
+            font-size: 0.95rem;
+        }
+
+        .cta-section { background: var(--dark-green); color: white; text-align: center; padding: 80px 0; }
         .btn-join {
             background-color: var(--autumn-red);
             color: white;
-            padding: 20px 50px;
-            font-size: 1.5rem;
+            padding: 18px 45px;
+            font-size: 1.4rem;
             font-weight: 700;
             border-radius: 50px;
             text-decoration: none;
@@ -113,9 +117,9 @@
         }
         .btn-join:hover { background-color: var(--autumn-yellow); color: var(--dark-green); transform: translateY(-5px); }
 
-        footer { background: #222; color: #777; padding: 30px; text-align: center; }
+        footer { background: #222; color: #777; padding: 25px; text-align: center; }
 
-        @media (max-width: 768px) { .hero-content h1 { font-size: 2.2rem; } .img-fluid-custom { height: 200px; } }
+        @media (max-width: 768px) { .hero-content h1 { font-size: 2.2rem; } }
     </style>
 </head>
 <body>
@@ -124,15 +128,16 @@
         <div class="hero-content animate__animated animate__fadeIn">
             <span class="hero-badge">2026.10.10(土) - 10.12(月・祝)</span>
             <h1>🍂 西吾妻山・磐梯山<br>登山ツアーのご案内 🍂</h1>
-            <p class="lead fw-bold">紅葉、名湯、百名山の絶景を楽しむ</p>
+            <p class="lead fw-bold">紅葉、名湯、そして裏磐梯の絶景を一緒に楽しみませんか？</p>
         </div>
     </header>
 
     <div class="container">
-        <section class="text-left animate__animated animate__fadeInUp">
-            <p class="lead text-primary fw-bold">ワンゲルの皆様へのお知らせ！</p>
+        <section class="text-center animate__animated animate__fadeInUp">
+            <p class="lead text-primary fw-bold">ワンゲルメンバーの皆様、お疲れ様です！</p>
             <p>今年の秋は日本百名山、<strong>「西吾妻山」と「磐梯山」</strong>を贅沢に巡る2泊3日のツアーを企画しました。<br>
-            紅葉、歴史ある名湯、百名山の絶景を一緒に楽しみましょう！西吾妻山はロープウェイ＋リフトの楽々コースもある登山です。</p>
+            少し早めの紅葉、歴史ある名湯、そして裏磐梯の絶景を一緒に楽しみましょう！<br>
+            登山組も観光組も楽しめるフレキシブルな行程です。奮ってご参加ください！</p>
         </section>
 
         <hr>
@@ -141,8 +146,21 @@
             <h2 class="section-title">開催概要</h2>
             <div class="row g-4 justify-content-center text-center">
                 <div class="col-md-4"><div class="card h-100 p-4 shadow-sm"><h3>🗓 日程</h3><p>2026年10月10日（土）〜<br>10月12日（月・祝）</p></div></div>
-                <div class="col-md-4"><div class="card h-100 p-4 shadow-sm"><h3>📍 行き先</h3><p>山形県・米沢市・白布<br>福島県・裏磐梯エリア</p></div></div>
-                <div class="col-md-4"><div class="card h-100 p-4 shadow-sm"><h3>🏔 登山</h3><p>西吾妻山（2,035m）<br>磐梯山（1,816m）</p></div></div>
+                <div class="col-md-4"><div class="card h-100 p-4 shadow-sm"><h3>📍 目的地</h3><p>山形県・福島県<br>（米沢・裏磐梯エリア）</p></div></div>
+                <div class="col-md-4"><div class="card h-100 p-4 shadow-sm"><h3>🏔 主な山</h3><p>西吾妻山（2,035m）<br>磐梯山（1,816m）</p></div></div>
+            </div>
+        </section>
+
+        <section class="bg-white rounded p-4 shadow-sm mb-5">
+            <h3 class="fw-bold h5 text-center mb-3">👥 参加予定メンバー（計11名）</h3>
+            <div class="text-center">
+                <span class="member-badge">上加世田夫妻（2名）</span>
+                <span class="member-badge">村井夫妻（2名）</span>
+                <span class="member-badge">吉田夫妻（2名）</span>
+                <span class="member-badge">木本（1名）</span>
+                <span class="member-badge">大高（1名）</span>
+                <span class="member-badge">吉岡（1名）</span>
+                <span class="member-badge">杉本夫妻（2名）</span>
             </div>
         </section>
 
@@ -155,11 +173,13 @@
                     <div class="row align-items-center">
                         <div class="col-md-7">
                             <table class="table schedule-table">
-                                <tr><th>09:00</th><td>東京駅発 新幹線（関西組の到着に合わせて調整）</td></tr>
-                                <tr><th>11:30</th><td>福島駅にて集合・レンタカーで米沢へ移動</td></tr>
-                                <tr><th>12:30</th><td>米沢市内にて昼食（米沢牛など）</td></tr>
-                                <tr><th>14:00</th><td>上杉家ゆかりの遺跡・米沢城址など見学</td></tr>
-                                <tr><th>16:30</th><td>新高湯温泉「吾妻屋」チェックイン</td></tr>
+                                <tr><th>09:24</th><td>東京駅発（やまびこ131号）</td></tr>
+                                <tr><th>10:42</th><td>福島駅着</td></tr>
+                                <tr><th>11:00</th><td>トヨタレンタカー福島店出発（車で米沢へ）</td></tr>
+                                <tr><th>11:50</th><td>米沢市内着（昼食場所へ移動）</td></tr>
+                                <tr><th>12:00</th><td>昼食：米沢牛「登起波分店 登（のぼる）」</td></tr>
+                                <tr><th>13:30</th><td>上杉家ゆかりの遺跡・米沢城址など見学</td></tr>
+                                <tr><th>16:00</th><td>新高湯温泉「吾妻屋」チェックイン</td></tr>
                             </table>
                         </div>
                         <div class="col-md-5 text-center">
@@ -169,7 +189,7 @@
                     </div>
                     <div class="info-box">
                         <strong>♨️ 宿泊：新高湯温泉 吾妻屋旅館</strong><br>
-                        ※5月下旬予約開始予定。標高1,100mの絶景露天風呂が自慢です！<br>
+                        ※標高1,100mの絶景露天風呂が自慢です！<br>
                         1泊2食付 約18,000円<br>
                         <a href="https://on1000.jp/" target="_blank" class="hotel-link">▶ 宿の公式サイトを見る</a>
                     </div>
@@ -196,7 +216,7 @@
                     
                     <div class="info-box" style="border-color: #3498db; background-color: #f0f8ff;">
                         <strong>🏨 宿泊：メルキュール裏磐梯リゾート＆スパ</strong><br>
-                        ※12名分予約済み。登山後の疲れを広い温泉で癒やしましょう。<br>
+                        ※登山後の疲れを広々とした温泉で癒やしましょう。<br>
                         1泊2食付 約13,000円<br>
                         <a href="https://mercure-urabandai-resortandspa.jp/" target="_blank" class="hotel-link" style="color: #3498db; border-color: #3498db;">▶ 宿の公式サイトを見る</a>
                     </div>
@@ -204,7 +224,7 @@
             </div>
 
             <div class="day-card">
-                <div class="day-header">【Day 3】 10/12（月・祝）：磐梯山と五色沼散策</div>
+                <div class="day-header">【Day 3】 10/12（月・祝）：磐梯山登山とクラフトビール打ち上げ</div>
                 <div class="p-4">
                     <div class="row">
                         <div class="col-md-6 text-center">
@@ -212,13 +232,24 @@
                         </div>
                         <div class="col-md-6">
                             <h4>🧗 【登山組】 磐梯山アタック</h4>
-                            <p>八方台登山口より登頂（往復約4-5時間）。山頂からは猪苗代湖と裏磐梯が一望できます！</p>
+                            <p>八方台登山口より登頂（往復約4.5〜5.5時間）。山頂からは猪苗代湖と裏磐梯が一望できます！</p>
                             <h4>🎨 【観光組】 裏磐梯散策</h4>
                             <p>五色沼自然探勝路の散策など、周辺の紅葉をゆっくり楽しみます！</p>
-                            <p><strong>夕方：</strong> 郡山駅へ移動。レンタカー返却後、新幹線にて帰京・帰阪</p>
                         </div>
                     </div>
-                    <img src="https://github.com/ysugimoto1670041/FUKUSHIMA/blob/main/images/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%200008-04-09%201.13.10.png?raw=true" class="map-img" alt="磐梯山登山マップ">
+                    <img src="https://github.com/ysugimoto1670041/FUKUSHIMA/blob/main/images/%E3%82%B スクリーンショット 0008-04-09 1.13.10.png?raw=true" class="map-img" alt="磐梯山登山マップ">
+                    
+                    <div class="mt-4">
+                        <table class="table schedule-table">
+                            <tr><th>07:15</th><td>ホテル出発（八方台駐車場へ移動）</td></tr>
+                            <tr><th>08:00</th><td>磐梯山 登山開始（八方台登山口）</td></tr>
+                            <tr><th>13:30</th><td>下山完了・八方台駐車場から郡山駅へ移動</td></tr>
+                            <tr><th>15:30〜16:00</th><td>トヨタレンタカー郡山駅店 到着・返却手続き</td></tr>
+                            <tr><th>16:30</th><td>🍻 打ち上げ：個室 クラフトビール 郡山サンライズホール<br><a href="https://www.hotpepper.jp/strJ004050130/" target="_blank" class="small text-danger">▶ 店舗詳細（ホットペッパー）</a></td></tr>
+                            <tr><th>17:31</th><td>郡山駅発（やまびこ150号）</td></tr>
+                            <tr><th>18:48</th><td>東京駅着・解散</td></tr>
+                        </table>
+                    </div>
                 </div>
             </div>
         </section>
@@ -230,7 +261,7 @@
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">宿泊代：計 約31,000円</li>
                         <li class="list-group-item">交通費：新幹線代 ＋ レンタカー・ガソリン代（人数割り）</li>
-                        <li class="list-group-item">その他：昼食代、ロープウェイ代など</li>
+                        <li class="list-group-item">その他：昼食代、ロープウェイ代、打ち上げ代など</li>
                     </ul>
                 </div>
             </div>
@@ -249,14 +280,14 @@
 
     <section class="cta-section">
         <div class="container animate__animated animate__pulse animate__infinite">
-            <h2 class="mb-4">東北の秋、最高の景色を<br>一緒に見に行きましょう！</h2>
-            <p class="mb-5">参加希望の方はLINEにご返信ください！</p>
-          
+            <h2 class="mb-4">東北の秋、最高の景色とビールを<br>一緒に楽しみましょう！</h2>
+            <p class="mb-5">参加希望の方は本グループLINEにご返信ください！</p>
+            <a href="#" class="btn-join">LINEで参加表明する</a>
         </div>
     </section>
 
     <footer>
-        &copy; 2026秋登山実行委員会（吉田、杉本）
+        &copy; 2026 登山同好会 ワンゲル幹事
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
